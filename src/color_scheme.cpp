@@ -4,3 +4,7 @@
 
 #include "color_scheme.h"
 #include <SFML/Graphics.hpp>
+
+color_scheme::color_scheme() {
+
+}

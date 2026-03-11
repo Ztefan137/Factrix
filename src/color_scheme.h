@@ -12,6 +12,7 @@ struct element_color_scheme {
     sf::Color light_margin=sf::Color::White;
 };
 class color_scheme {
+public:
     sf::Color window_color=sf::Color::White;
     sf::Color window_dark_margin=sf::Color::White;
     sf::Color window_light_margin=sf::Color::White;
@@ -21,9 +22,7 @@ class color_scheme {
     sf::Color button_color=sf::Color::White;
     sf::Color button_dark_margin=sf::Color::White;
     sf::Color button_light_margin=sf::Color::White;
-public:
     color_scheme();
-    void set_window_scheme(element_color_scheme scheme);
 };
 
 

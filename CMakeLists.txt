@@ -65,6 +65,10 @@ add_executable(${MAIN_EXECUTABLE_NAME}
         src/color_scheme.h
         src/window.cpp
         src/window.h
+        src/graphic_functions.h
+        src/graphic_functions.cpp
+        src/chunk.cpp
+        src/chunk.h
 )
 target_sources(${MAIN_EXECUTABLE_NAME}
     PRIVATE
